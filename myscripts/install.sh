@@ -11,7 +11,7 @@ logs(){
 }
 do_install(){
     local INSTALL_PATH="$1";local SH="$2";local TAR=`which tar`;local WGET=`which wget`;local MOUNT=`which mount`;local BN=`which basename`
-	local DOWN_URL="https://codeload.github.com/zwmscorm/sharealiddns/tar.gz/master"
+	local DOWN_URL="https://codeload.github.com/fs021263/sharealiddns/tar.gz/master"
 	local TMP_PATH="/tmp/sharealiddns-master"
 	local TAR_GZ="$TMP_PATH.tar.gz"
 	local SCRIPTS_PATH=""
